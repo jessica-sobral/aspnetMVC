@@ -1,3 +1,56 @@
 @{
     ViewData["Title"] = "Lista de Contatos";
 }
+
+<div class="text-center">
+  <div class="nav justify-content">
+    <a class="btn btn-outline-dark" role="button">Novo Contato</a>
+  </div>
+  <br>
+
+  <h1 class="display-4">Lista de Contatos</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nome</th>
+        <th scope="col">E-mail</th>
+        <th scope="col">Telefone</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Nick Nelson</td>
+        <td>nick.nelson@gmail.com</td>
+        <td>4828-9457</td>
+        <td>
+          <button type="button" class="btn btn-outline-primary">Editar</button>
+          <button type="button" class="btn btn-outline-danger">Excluir</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Charlie Spring</td>
+        <td>char.spring@gmail.com</td>
+        <td>1190-5434</td>
+        <td>
+          <button type="button" class="btn btn-outline-primary">Editar</button>
+          <button type="button" class="btn btn-outline-danger">Excluir</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Tara Jones</td>
+        <td>tara.jones@gmail.com</td>
+        <td>8767-1524</td>
+        <td>
+          <button type="button" class="btn btn-outline-primary">Editar</button>
+          <button type="button" class="btn btn-outline-danger">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

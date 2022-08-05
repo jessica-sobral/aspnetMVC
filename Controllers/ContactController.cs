@@ -18,5 +18,10 @@ namespace controlOfContacts.Controllers
         {
             return View();
         }
+
+        public IActionResult DeleteConfirm()
+        {
+            return View();
+        }
     }
 }

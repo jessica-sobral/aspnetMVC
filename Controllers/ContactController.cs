@@ -1,27 +1,26 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace controlOfContacts.Controllers
+namespace controlOfContacts.Controllers;
+
+public class ContactController : Controller
 {
-    public class ContactController : Controller
+    public IActionResult Index()
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        return View();
+    }
 
-        public IActionResult Create()
-        {
-            return View();
-        }
+    public IActionResult Create()
+    {
+        return View();
+    }
 
-        public IActionResult Update()
-        {
-            return View();
-        }
+    public IActionResult Update()
+    {
+        return View();
+    }
 
-        public IActionResult DeleteConfirm()
-        {
-            return View();
-        }
+    public IActionResult DeleteConfirm()
+    {
+        return View();
     }
 }
